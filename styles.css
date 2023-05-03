@@ -1,0 +1,92 @@
+body {
+    background: #000000;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.post {
+    background: white;
+    margin-top: 10px;
+}
+
+.container {
+    width: 500px;
+    margin: auto
+}
+
+.container img {
+    width: 100%
+}
+
+.post h3,
+p {
+    margin: 0px;
+    text-align: left;
+
+}
+
+.post-header div:first-child {
+    display: inline;
+    width: 80%;
+    text-align: center;
+}
+
+.post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 5px;
+}
+
+.post .likes {
+    padding: 10px;
+    margin: 0px;
+}
+
+svg {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.bookmark {
+    float: right;
+    margin-right: 10px;
+}
+
+.dots {
+    float: right;
+}
+
+.logo-name {
+    align-items: top;
+    margin-bottom: 40px;
+}
+
+.html-rigoberto h3 {
+    padding-bottom: .5px;
+}
+
+.html-logo {
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+}
+
+.html-rigoberto {
+    display: inline-block;
+}
+
+.caption {
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
+.post-header .logo-name .html-logo svg {
+    padding-bottom: 10px;
+}
